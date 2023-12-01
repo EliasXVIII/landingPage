@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ }
+ 
+ 
+ body{
+ 
+ 
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  
+ }
+ 
+ 
+ nav{
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(47, 47, 82);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+ 
+  
+ }
+ 
+ 
+ nav div ul{
+    display: flex;
+    font-weight: bold;
+    justify-items: center;
+    margin: 1rem;
+  
+ }
+ 
+ 
+ nav div ul li {
+ 
+ 
+    color: white;
+    margin: 1rem;
+    /* padding: 2rem; */
+  
+ }
+.bootstrap{
+   font-size: 1.4rem;
+   /* border: 0.5rem solid; */
+
+}
+ 
+ .listaMenu {
+    font-size: 1.1rem;
+    /* margin-top: 1rem; */
+   /*  border: 0.5rem solid; */
+ }
+ 
+ 
+ header{
+ 
+ 
+    width: 100%;
+    /* height: 41.5rem; */
+    height: auto;
+    background-color: rgb(71, 185, 147);
+    margin: 0 auto;
+
+   
+ }
+ 
+ 
+ article{
+    margin: 0 auto;
+    display: flex;     
+    flex-direction: column;     
+    align-items: center;
+ }
+ 
+ 
+ .article1{
+    width: 100%;
+    height: 58rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: rgb(47, 47, 82);
+ 
+ }
+
+
+ .imagenes {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   max-width: 70%;
+   max-height: 70%;
+ 
+ 
+ }
+ 
+ 
+ .imagenes img{
+   width: 22rem;
+   height: auto;
+   border-radius: 0.5rem;
+   margin: 1rem;
+  
+ 
+
+ }
+ 
+ .article2{
+   width: 100%;
+    height: 38rem;
+    background-color: rgb(71, 185, 147);
+    margin: 0 auto;
+    color: white;
+ 
+ 
+ }
+ 
+ 
+ .article3{
+   width: 100%;
+    height: 20rem;
+    background-color: white;
+    margin: 0 auto;
+ 
+ 
+ }
+ 
+  
+ 
+ 
+ .copyright{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(28, 28, 37);
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+   
+}
+ 
+.contenedorHeader {      
+   display: flex;     
+   flex-direction: column;     
+   align-items: center;
+   color: white;}    
+   
+.avatar{
+   width: 15rem;     
+   height: 4rem;     
+   margin-top: 5.5rem;
+  
+}   
+   
+.titulo{
+   width: auto;     
+   height: 4rem;     
+   margin-top: 14rem;     
+   justify-items: center;     
+   text-align: center;
+   font-size: 2rem;
+   /* border: solid green  1rem; */}  
+
+.titulo2 {
+   width: auto;     
+   height: 4rem;     
+   margin-top: 0rem;     
+   justify-items: center;     
+   text-align: center;
+   font-size: 1.8rem;
+}
+
+.estrella {
+   font-weight: bolder;
+   font-size: 2rem;
+   margin-top: 1.7rem;
+
+}
+
+.estrella2{
+   font-weight: bolder;
+   font-size: 2rem;
+   margin-top: 0.8rem;
+   margin-bottom: 0.45rem;
+/*    border: 0.5rem solid black; */
+
+}
+   
+.subtitulo{
+   width: auto;     
+   height: 4rem;     
+   margin-top: 1rem;     
+   justify-items: center;
+   font-size: 1.3rem;
+   font-weight: 500;
+  /*  border: solid green  1rem; */
+}
+
+.titulo3 {
+   width: auto;     
+   height: 4rem;     
+   margin-top: 5rem;     
+   justify-items: center;     
+   text-align: center;
+   font-size: 2rem;
+
+}
+
+.estrella3{
+   font-weight: bolder;
+   font-size: 2rem;
+   margin-top: 0.8rem;
+   margin-bottom: 0.45rem;
+
+}
+
+.textAbout{
+   display: flex;
+}
+
+.textAbout div{
+   width: 22.2rem;
+   height: auto;
+   margin-top: 0.5rem;
+   font-size: 1.1rem;
+   line-height: 2rem;
+   padding: 1rem;
+   font-weight: 600;
+ /*   background-color: green;
+   border: solid 0.1rem black; */
+}
+
+button{
+
+   background-color: rgb(71, 185, 147);
+   padding: 1rem 2rem 1rem 2rem;
+   font-size: 1.1rem;
+   color: white;
+   font-weight: 600;
+   border: solid 0.15rem white;
+   border-radius: 0.4rem;
+   margin-top: 1rem;
+}
+
+.article3{
+   color: rgb(47, 47, 82);
+   height: 60rem;
+   
+}
+.titulo4{
+   width: auto;     
+   height: 4rem;     
+   margin-top: 5rem;     
+   justify-items: center;     
+   text-align: center;
+   font-size: 2rem;
+
+}
+
+.estrella4{
+   font-weight: bolder;
+   font-size: 2rem;
+   margin-top: 0.8rem;
+   margin-bottom: 0.45rem;
+
+}
+
+.formulario{
+
+   /* border: solid 0.3rem black; */
+   width: 45rem;
+   height: auto;
+   font-size:larger;
+
+}
+
+label {
+   display: block;
+   margin-bottom: 8px;
+}
+input, textarea {
+   width: 100%;
+   padding: 8px;
+   border: none;
+   border-bottom: solid 0.1rem rgb(176, 223, 241);
+   /* margin-bottom: 16px; */
+   box-sizing: border-box;
+}
+
+footer {
+
+   color: white;
+   justify-content: space-around;
+}
+
+.info{
+   width: 100%;
+    height: 14rem;
+    background-color: rgb(47, 47, 82);
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    justify-content:center;
+/*     align-items: center; */
+    padding-top: 5rem;
+    text-align: center;
+ 
+ 
+ }
+
+ .info p{
+
+   font-size:1rem;
+   font-weight: 400;
+   line-height:1.5rem;
+   
+ }
+ 
+ .iconosFooter{
+
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4rem;
+
+ }
+
+ a{
+   color: rgb(119, 202, 235)
+ }
+
+ .titulosF{
+   margin-bottom: 3rem;
+   /* border: solid 0.5rem green; */
+   
+ }
+
+
+ .cajitaFF{
+
+   width: 60%;
+   display: flex;
+   justify-content: space-around;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1700px) {
+
+   .article1{
+      width: 100%;
+      height: auto;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      color: rgb(47, 47, 82);
+   }
+   .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      max-width: 90%;
+      max-height: 90%;
+   }
+   .cajitaFF{
+
+   width: 98%;
+   display: flex;
+   justify-content: space-around;}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 856px) {
+   .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      max-width: 98%;
+      max-height: 98%;
+}
+.article2{
+   width: 100%;
+    height: auto;
+    background-color: rgb(71, 185, 147);
+    margin: 0 auto;
+    color: white;
+ 
+ 
+ }
+
+ .textAbout{
+   display: block;
+ }
+ 
+
+ }
+
+
+
+
+
+ 
+ @media screen and (max-width: 720px) {
+
+   .formulario{
+
+      /* border: solid 0.3rem black; */
+      width: 90%;
+      height: auto;
+      font-size:larger;
+   
+   }
+   
+   .bootstrap{
+   display: none;
+}
+  
+   .titulo{
+   font-size:large;
+}
+
+
+ }
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 410px) {
+
+
+.subtitulo{
+   font-size:x-large;
+}
+
+
+
+
+
+ }
+ 
+
+
+ 
